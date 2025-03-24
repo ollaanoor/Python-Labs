@@ -61,6 +61,10 @@
 #         elif not(guess in range(101)):
 #             print("Make sure to enter a number between 1 and 100")
 #             continue
+#         elif guess < random_number:
+#             print("The number you entered is smaller than the random number")
+#         elif guess > random_number:
+#             print("The number you entered is greater than the random number")
 #         elif guess in guesses:
 #             print("You have entered this number before")
 #             continue
