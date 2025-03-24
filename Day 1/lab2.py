@@ -53,7 +53,11 @@
 
 # while True:
 #     if tries > 0:
-#         guess = int(input("Enter your guess in range 1-100: "))
+#         guess = input("Enter your guess in range 1-100: ")    
+#         if not(guess.isdigit()):
+#             print("Please enter a valid number")
+#             continue    
+#         guess = int(guess) 
 #         if(guess == random_number):
 #             print("Congratulations!")
 #             random_number = random.randint(1,100)
